@@ -212,12 +212,8 @@
     overlay.addEventListener('click', closeBottomSheet);
   }
 
-  if (viewFullMenuButton) {
-    viewFullMenuButton.addEventListener('click', () => {
-      // Здесь можно добавить переход на страницу полного меню
-      alert('Переход на полную карту меню');
-    });
-  }
+  // Клик по "Kaffeebohnen kaufen" обрабатывается в index.html (открывает магазин).
+  // Здесь раньше был тестовый alert на русском — удалён.
 
   // Свайп для закрытия
   if (bottomSheet) {
